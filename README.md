@@ -1,0 +1,2 @@
+# CrossScale-ECG-A-Modular-HPC-Pipeline-from-Locality-Optimization-to-MPI-GPU-Overlap
+We introduce three coordinated modules that expose bottlenecks in biomedical FL. The first module isolates data locality as the primary variable, restructuring access patterns, enabling page-locked buffers, and issuing non-blocking transfers. Module 2 incorporates OpenMP-driven CPU parallelism and Module 3 exploits GPU stream overlap and AMP.
